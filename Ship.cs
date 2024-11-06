@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class Ship: MonoBehaviour
 {
+    Gun[] guns; // Az űrhajóhoz tartozó fegyverek tömbje
+    
     float moveSpeed = 3; // Alap mozgási sebesség
 
     // Bemeneti jelek az irányításhoz
@@ -16,7 +18,7 @@ public class Ship: MonoBehaviour
 
     void Start() // Egyszer fut le a játék indulásakor
     {
-
+        guns = transform.GetComponentsInChildren<Gun>(); // Fegyverek lekérése
     }
 
     void Update() // Minden képkocka frissítése
@@ -26,6 +28,16 @@ public class Ship: MonoBehaviour
         moveDown = Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S);
         moveLeft = Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A);
         moveRight = Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D);
+
+        shoot = Input.GetKeyDown(KeyCode.Space); // Lövés
+        if (shoot)
+        {
+            shoot = false;
+            foreach(Gun gun in guns)
+            {
+                gun.Shoot();
+            }
+        }
     }
 
     private void FixedUpdate() // Fizikai mozgás kezelése fix időközönként
