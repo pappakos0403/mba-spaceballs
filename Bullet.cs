@@ -17,6 +17,6 @@ public class Bullet : MonoBehaviour
 
     void Update() // Minden képkocka frissítése
     {
-        
+        velocity = direction * speed;
     }
 }
