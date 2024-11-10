@@ -10,6 +10,8 @@ public class Bullet : MonoBehaviour
 
     public Vector2 velocity; // A lövedék sebessége, amely az irány és a sebesség szorzata
 
+    public bool isEnemy = false;
+
     void Start() // Egyszer hívódik meg az indításkor
     {
         Destroy(gameObject, 3); // A kilőtt lövedék 3 sec múlva eltűnik

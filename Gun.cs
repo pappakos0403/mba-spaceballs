@@ -7,6 +7,13 @@ public class Gun : MonoBehaviour
     public Bullet bullet; // A lövedék
     Vector2 direction; // A lövés iránya
 
+    //Enemy automata lövés paraméterei
+    public bool autoShoot = false;
+    public float shootIntervalSeconds = 0.5f;
+    public float shootDelaySeconds = 0.0f;
+    float shootTimer = 0f;
+    float delayTimer = 0f;
+
     void Start() // Egyszer hívódik meg az indításkor
     {
         
@@ -17,6 +24,27 @@ public class Gun : MonoBehaviour
         // A fegyver irányának megfelelően kiszámítja a lövés irányát
         // A Vector2.right az egységvektor (1, 0), amit a fegyver forgatásával alakít át
         direction = (transform.localRotation * Vector2.right).normalized;
+
+        if (autoShoot) //Automata lövés mechanika
+        {
+            if (delayTimer >= shootDelaySeconds)
+            {
+                if (shootTimer >= shootIntervalSeconds)
+                {
+                    Shoot();
+                    shootTimer = 0;
+                }
+                else
+                {
+                    shootTimer += Time.deltaTime;
+                }
+            }
+            else
+            {
+                delayTimer += Time.deltaTime;
+            }
+
+        }
     }
 
     public void Shoot() //Lövés a fegyverrel
