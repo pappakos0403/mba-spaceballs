@@ -66,7 +66,6 @@
   <ItemGroup>
     <Compile Include="Assets\Gun.cs" />
     <Compile Include="Assets\MoveSin.cs" />
-    <Compile Include="Assets\Asteroid.cs" />
     <Compile Include="Assets\Level.cs" />
     <Compile Include="Assets\Bullet.cs" />
     <Compile Include="Assets\PowerUp.cs" />
@@ -74,6 +73,7 @@
     <Compile Include="Assets\Destructable.cs" />
     <Compile Include="Assets\MoveRightLeft.cs" />
     <Compile Include="Assets\Ship.cs" />
+    <Compile Include="Assets\MoveRotation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

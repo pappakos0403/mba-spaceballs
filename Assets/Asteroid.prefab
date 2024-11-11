@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5993999961551394694}
   - component: {fileID: 6451953239830367134}
   - component: {fileID: 231608844489745667}
-  - component: {fileID: 3821661453663618903}
+  - component: {fileID: 1321091556766317078}
   m_Layer: 0
   m_Name: Asteroid
   m_TagString: Untagged
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreValue: 50
---- !u!114 &3821661453663618903
+--- !u!114 &1321091556766317078
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
