@@ -568,6 +568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level
       objectReference: {fileID: 0}
+    - target: {fileID: 3341487876178550641, guid: 5cdfc03c738ee3e49972bb9609a21a48, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -647.3
+      objectReference: {fileID: 0}
     - target: {fileID: 3992540972908252253, guid: 5cdfc03c738ee3e49972bb9609a21a48, type: 3}
       propertyPath: m_Size.x
       value: 1

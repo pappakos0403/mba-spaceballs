@@ -189,6 +189,8 @@ public class Ship : MonoBehaviour
             if (!invincible) // Ha nem sérthetetlen
             {
                 hits--; // Élet csökkentése
+                Level.instance.DecreaseHealth(1);
+
                 if (hits <= 0)
                 {
                     Destroy(gameObject); // Hajó elpusztítása, ha nincs több élet

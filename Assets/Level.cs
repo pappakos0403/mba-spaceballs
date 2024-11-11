@@ -17,6 +17,8 @@ public class Level : MonoBehaviour
 
     int score = 0;
     Text scoreText;
+    int health = 3;
+    Text healthText;
 
     private void Awake()
     {
@@ -25,6 +27,7 @@ public class Level : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
             scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
+            healthText = GameObject.Find("HealthText").GetComponent<Text>();
         }
         else
         {
@@ -72,6 +75,12 @@ public class Level : MonoBehaviour
     {
         score += amountToAdd;
         scoreText.text = score.ToString();
+    }
+
+    public void DecreaseHealth(int amountToDecrease)
+    {
+        health -= amountToDecrease;
+        healthText.text = health.ToString();
     }
 
     public void AddDestructable()
