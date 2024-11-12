@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Gun.cs" />
+    <Compile Include="Assets\FinalBoss.cs" />
     <Compile Include="Assets\MoveSin.cs" />
     <Compile Include="Assets\Level.cs" />
     <Compile Include="Assets\Bullet.cs" />

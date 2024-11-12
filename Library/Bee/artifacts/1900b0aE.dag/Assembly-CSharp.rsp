@@ -386,6 +386,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Bullet.cs"
 "Assets/Destructable.cs"
+"Assets/FinalBoss.cs"
 "Assets/Gun.cs"
 "Assets/Level.cs"
 "Assets/MoveRightLeft.cs"
