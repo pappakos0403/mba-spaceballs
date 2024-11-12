@@ -224,6 +224,7 @@ public class Ship : MonoBehaviour
             if (powerUp.activateShield) ActivateShield(); // Pajzs power-up aktiválása
             if (powerUp.addGuns) AddGuns(); // Fegyver power-up aktiválása
             if (powerUp.increaseSpeed) SetSpeedMultiplier(speedMultiplier + 1); // Sebesség power-up aktiválása
+            if (powerUp.increaseHealth) Level.instance.IncreaseHealth(1); // +1 élet power up aktiválása
             Level.instance.AddScore(powerUp.pointValue); // Pontszám növelése
             Destroy(powerUp.gameObject); // Power-up elpusztítása
         }

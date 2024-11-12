@@ -83,6 +83,15 @@ public class Level : MonoBehaviour
         healthText.text = health.ToString();
     }
 
+    public void IncreaseHealth(int amountToIncrease)
+    {
+        if (health < 5) //Maximum 5 élet lehet
+        {
+            health += amountToIncrease;
+            healthText.text = health.ToString();
+        }
+    }
+
     public void AddDestructable()
     {
         numDestructables++;
