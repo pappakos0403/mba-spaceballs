@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class FinalBoss : MonoBehaviour
@@ -13,7 +15,7 @@ public class FinalBoss : MonoBehaviour
     public GameObject enemyType3;
     
     private Vector2 currentPosition;
-    private Vector2[] targetPositions = { new Vector2(13.5f, 5f), new Vector2(13.5f, 2.5f), new Vector2(13.5f, 7.5f) };
+    private Vector2[] targetPositions = { new Vector2(15.8f, 5f), new Vector2(15.8f, 2.5f), new Vector2(15.8f, 7.5f) };
     private int currentTargetIndex = 0;
     private float timeToNextTarget = 0f;
 
@@ -24,8 +26,8 @@ public class FinalBoss : MonoBehaviour
 
     void Update()
     {
-        // Ha a Final Boss elérte az x = 13.5f koordinátát, elindítjuk a mozgási ciklust
-        if (!isAtTargetX && currentPosition.x <= 13.5f)
+        // Ha a Final Boss elérte az x = 15.8f koordinátát, elindítjuk a mozgási ciklust
+        if (!isAtTargetX && currentPosition.x <= 15.8f)
         {
             isAtTargetX = true;
             timeToNextTarget = cycleTime;
@@ -49,11 +51,11 @@ public class FinalBoss : MonoBehaviour
         }
         else
         {
-            // Mozgás az x = 13.5f koordináta felé
+            // Mozgás az x = 15.8f koordináta felé
             currentPosition.x -= moveSpeed * Time.deltaTime;
-            if (currentPosition.x <= 13.5f)
+            if (currentPosition.x <= 15.8f)
             {
-                currentPosition.x = 13.5f;
+                currentPosition.x = 15.8f;
             }
             transform.position = currentPosition;
         }
@@ -62,6 +64,17 @@ public class FinalBoss : MonoBehaviour
     private void SpawnEnemies()
     {
         Vector3 spawnposition = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-        Instantiate(enemyType1, spawnposition, Quaternion.identity);
+        
+        for (int i = 0; i < 3; i ++) // Random enemy spawnolás
+        {
+            float spawnOffsetY = i == 1 ? 1f : (i == 2 ? -1f : 0f); // Spawn koordináták eloszlása az Y tengelyen
+            Vector3 adjustedPosition = new Vector3(spawnposition.x, spawnposition.y + spawnOffsetY, spawnposition.z);
+
+            int enemyType = UnityEngine.Random.Range(1,4); // Random enemy típus kiválasztása
+
+            if (enemyType == 1) Instantiate(enemyType1, adjustedPosition, Quaternion.identity); // Enemy spawnolása
+            if (enemyType == 2) Instantiate(enemyType2, adjustedPosition, Quaternion.identity);
+            if (enemyType == 3) Instantiate(enemyType3, adjustedPosition, Quaternion.identity);
+        }
     }
 }
