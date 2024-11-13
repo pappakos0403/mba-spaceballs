@@ -6,22 +6,22 @@ using UnityEngine;
 public class Destructable : MonoBehaviour
 {
 
-    bool canBeDestroyed = false;
-    public int scoreValue = 100;
+    public bool canBeDestroyed = false; // Objektum megsemmisíthető állapota
+    public bool isFinalBoss = false; // Final Boss ellenőrző
+    private int finalBossHealth = 100; // Final Boss élete
+    public int scoreValue = 100; // Megsemmisítésért járó pontszám
 
-    // Start is called before the first frame update
     void Start()
     {
         Level.instance.AddDestructable();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (transform.position.x < 17.5f && !canBeDestroyed)
+        if (transform.position.x < 17.5f && !canBeDestroyed) // Enemy lelőhető, ha a képernyőn található
         {
             canBeDestroyed = true;
-            Gun[] guns = transform.GetComponentsInChildren<Gun>();
+            Gun[] guns = transform.GetComponentsInChildren<Gun>(); // Enemy fegyvere aktív, ha a képernyőn található
             foreach (Gun gun in guns)
             {
                 gun.isActive = true;
@@ -29,7 +29,7 @@ public class Destructable : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision) // Enemy sebzése
     {
         if(!canBeDestroyed)
         {
@@ -41,9 +41,22 @@ public class Destructable : MonoBehaviour
         {
             if (!bullet.isEnemy)
             {
-                Level.instance.AddScore(scoreValue);
-                Destroy(gameObject);
-                Destroy(bullet.gameObject);
+                if (!isFinalBoss) // Enemy típus esete
+                {
+                    Level.instance.AddScore(scoreValue);
+                    Destroy(gameObject);
+                    Destroy(bullet.gameObject);
+                }
+                else // Final Boss típus esete
+                {
+                    Destroy(bullet.gameObject);
+                    finalBossHealth--;
+                    if (finalBossHealth <= 0)
+                    {
+                        Level.instance.AddScore(scoreValue);
+                        Destroy(gameObject);
+                    }
+                }
             }
         }
     }

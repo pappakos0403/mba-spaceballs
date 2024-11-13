@@ -699,6 +699,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1767486433075016354, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: cycleTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -1767486433075016354, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: moveSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -1767486433075016354, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: enemyType1
+      value: 
+      objectReference: {fileID: 8969159199336850992, guid: 9d448453434ba5a4fb1abb05fe015d86, type: 3}
+    - target: {fileID: -1767486433075016354, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: enemyType2
+      value: 
+      objectReference: {fileID: 8969159199336850992, guid: 96b4c7ddc1384ff41a520516fb38b4bd, type: 3}
+    - target: {fileID: -1767486433075016354, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: enemyType3
+      value: 
+      objectReference: {fileID: 944183420548751818, guid: f02e0dc88481ba848858636c669fde04, type: 3}
+    - target: {fileID: 1622809775173910384, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: shootIntervalSeconds
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2060254826531698309, guid: 05011bf3838a3a444adb39091779b718, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.47
@@ -739,9 +763,57 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 2846287393472741466, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: shootIntervalSeconds
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3006468749917434744, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: shootIntervalSeconds
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3574351552456319904, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: shootIntervalSeconds
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819401397965705896, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: shootIntervalSeconds
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103443076837988404, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: shootIntervalSeconds
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4197178056821330128, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: shootIntervalSeconds
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739391240780675632, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: shootIntervalSeconds
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4990147499979377619, guid: 05011bf3838a3a444adb39091779b718, type: 3}
       propertyPath: m_Name
       value: Final Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539884426221729260, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: shootIntervalSeconds
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5756081537563356375, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: isFinalBoss
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059095424420333799, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: shootIntervalSeconds
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7136345976001680817, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: shootIntervalSeconds
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9209403102649045291, guid: 05011bf3838a3a444adb39091779b718, type: 3}
+      propertyPath: shootIntervalSeconds
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
