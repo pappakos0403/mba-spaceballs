@@ -606,6 +606,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed1f74d1d78972b4eabeb33a3a04ac07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canBeDestroyed: 0
+  isFinalBoss: 1
   scoreValue: 10000
 --- !u!114 &-1767486433075016354
 MonoBehaviour:
@@ -619,6 +621,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 681f61bb5cf3f3940955ef92bf8cb8b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 4
+  cycleTime: 2
+  enemyType1: {fileID: 8969159199336850992, guid: 9d448453434ba5a4fb1abb05fe015d86, type: 3}
+  enemyType2: {fileID: 8969159199336850992, guid: 96b4c7ddc1384ff41a520516fb38b4bd, type: 3}
+  enemyType3: {fileID: 944183420548751818, guid: f02e0dc88481ba848858636c669fde04, type: 3}
 --- !u!1 &5716107693552383461
 GameObject:
   m_ObjectHideFlags: 0
