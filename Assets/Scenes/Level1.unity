@@ -2201,6 +2201,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -2.44
       objectReference: {fileID: 0}
+    - target: {fileID: 453257323767538085, guid: 5cdfc03c738ee3e49972bb9609a21a48, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 1987409076534494905, guid: 5cdfc03c738ee3e49972bb9609a21a48, type: 3}
       propertyPath: m_Maskable
       value: 1
