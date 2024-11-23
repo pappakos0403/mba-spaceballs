@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 //using Unity.VisualScripting.ReorderableList.Element_Adder_Menu;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ship : MonoBehaviour
 {
@@ -24,6 +25,9 @@ public class Ship : MonoBehaviour
     bool moveRight;
 
     bool shoot; // Lövés jelzése
+
+    private bool isPauseMenuActive = false;
+
 
     SpriteRenderer spriteRenderer; // Az űrhajó sprite renderelője
 
@@ -53,6 +57,11 @@ public class Ship : MonoBehaviour
 
     void Update() // Minden képkocka frissítése
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            OpenPauseMenu();
+        }
+
         // Bemenetek ellenőrzése (WASD és nyilak)
         moveUp = Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W);
         moveDown = Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S);
@@ -202,6 +211,12 @@ public class Ship : MonoBehaviour
                 ResetShip(); // Hajó újraindítása
             }
         }
+    }
+
+    public void OpenPauseMenu()
+    {
+        Time.timeScale = 0f; // Megállítja az időt
+        SceneManager.LoadScene("PauseMenu", LoadSceneMode.Additive); // Additív betöltés
     }
 
     private void OnTriggerEnter2D(Collider2D collision) // Ütközések kezelése

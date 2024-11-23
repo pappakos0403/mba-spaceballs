@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\K\u00E1roly Bence\\The Game\\mba-spaceballs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0A85945-7ABE-E10D-CC45-8A88263323AA}|Game.csproj|c:\\users\\k\u00E1roly bence\\the game\\mba-spaceballs\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C0A85945-7ABE-E10D-CC45-8A88263323AA}|Game.csproj|C:\\Users\\K\u00E1roly Bence\\The Game\\mba-spaceballs\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0A85945-7ABE-E10D-CC45-8A88263323AA}|Game.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0A85945-7ABE-E10D-CC45-8A88263323AA}|Game.csproj|c:\\users\\k\u00E1roly bence\\the game\\mba-spaceballs\\assets\\scripts\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0A85945-7ABE-E10D-CC45-8A88263323AA}|Game.csproj|solutionrelative:assets\\scripts\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0A85945-7ABE-E10D-CC45-8A88263323AA}|Game.csproj|C:\\Users\\K\u00E1roly Bence\\The Game\\mba-spaceballs\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0A85945-7ABE-E10D-CC45-8A88263323AA}|Game.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0A85945-7ABE-E10D-CC45-8A88263323AA}|Game.csproj|C:\\Users\\K\u00E1roly Bence\\The Game\\mba-spaceballs\\assets\\scripts\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0A85945-7ABE-E10D-CC45-8A88263323AA}|Game.csproj|solutionrelative:assets\\scripts\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,34 +32,35 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\mainmenu.cs",
               "ToolTip": "C:\\Users\\K\u00E1roly Bence\\The Game\\mba-spaceballs\\Assets\\Scripts\\mainmenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\mainmenu.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T20:29:46.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "C:\\Users\\K\u00E1roly Bence\\The Game\\mba-spaceballs\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PauseMenu.cs",
               "ToolTip": "C:\\Users\\K\u00E1roly Bence\\The Game\\mba-spaceballs\\Assets\\Scripts\\PauseMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\PauseMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T17:38:16.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Ship.cs",
               "DocumentMoniker": "C:\\Users\\K\u00E1roly Bence\\The Game\\mba-spaceballs\\Assets\\Scripts\\Ship.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Ship.cs",
               "ToolTip": "C:\\Users\\K\u00E1roly Bence\\The Game\\mba-spaceballs\\Assets\\Scripts\\Ship.cs",
               "RelativeToolTip": "Assets\\Scripts\\Ship.cs",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAIwOcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAwwD0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T17:23:09.672Z"
+              "WhenOpened": "2024-11-21T17:23:09.672Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,36 +1,21 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ShipController : MonoBehaviour
+public class PauseMenuManager : MonoBehaviour
 {
-    private bool isPaused = false;
-
-    void Update()
+    public void ResumeGame()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (isPaused)
-            {
-                ResumeGame();
-            }
-            else
-            {
-                PauseGame();
-            }
-        }
+        SceneManager.UnloadSceneAsync("PauseMenu"); // Eltávolítja a PauseMenu jelenetet
+        Time.timeScale = 1f; // Idõ újraindítása
     }
 
-    void PauseGame()
-    {
-        Time.timeScale = 0f; // Megállítja az idõt
-        SceneManager.LoadScene("PauseMenu", LoadSceneMode.Additive); // Additív betöltés
-        isPaused = true;
-    }
-
-    void ResumeGame()
+    public void QuitToMainMenu()
     {
         Time.timeScale = 1f; // Idõ visszaállítása
-        SceneManager.UnloadSceneAsync("PauseMenu"); // PauseMenu Scene eltávolítása
-        isPaused = false;
+        SceneManager.LoadScene("MainMenu"); // Visszatérés a fõmenübe
+    }
+    public void GoToSettingsMenu()
+    {
+        SceneManager.LoadScene("SceneSettings");
     }
 }

@@ -9,10 +9,10 @@ ScriptsOnlyBuild:
     - MoveRightLeft
     - MoveRotation
     - MoveSin
+    - PauseMenuManager
     - PowerUp
     - Shield
     - Ship
-    - ShipController
     - mainmenu
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -229,6 +229,15 @@ ScriptsOnlyBuild:
   - assembly: Game
     fullTypeName: mainmenu
     methodName: GoToMainMenu
+  - assembly: Game
+    fullTypeName: PauseMenuManager
+    methodName: ResumeGame
+  - assembly: Game
+    fullTypeName: PauseMenuManager
+    methodName: QuitToMainMenu
+  - assembly: Game
+    fullTypeName: PauseMenuManager
+    methodName: GoToSettingsMenu
   sceneClasses:
     Assets/Scenes/Level1.unity:
     - Class: 1
@@ -270,19 +279,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8488}
     - Class: 114
-      Script: {instanceID: 8822}
+      Script: {instanceID: 8824}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 9796}
     - Class: 114
-      Script: {instanceID: 10440}
+      Script: {instanceID: 10442}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 11274}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 11394}
     - Class: 114
-      Script: {instanceID: 11858}
+      Script: {instanceID: 11860}
     - Class: 114
-      Script: {instanceID: 12120}
+      Script: {instanceID: 12122}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -341,19 +350,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8488}
     - Class: 114
-      Script: {instanceID: 8822}
+      Script: {instanceID: 8824}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 9796}
     - Class: 114
-      Script: {instanceID: 10440}
+      Script: {instanceID: 10442}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 11274}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 11394}
     - Class: 114
-      Script: {instanceID: 11858}
+      Script: {instanceID: 11860}
     - Class: 114
-      Script: {instanceID: 12120}
+      Script: {instanceID: 12122}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -418,19 +427,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8488}
     - Class: 114
-      Script: {instanceID: 8822}
+      Script: {instanceID: 8824}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 9796}
     - Class: 114
-      Script: {instanceID: 9940}
+      Script: {instanceID: 9942}
     - Class: 114
-      Script: {instanceID: 10440}
+      Script: {instanceID: 10442}
     - Class: 114
-      Script: {instanceID: 11272}
+      Script: {instanceID: 11274}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 11394}
     - Class: 114
-      Script: {instanceID: 11858}
+      Script: {instanceID: 11860}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -537,49 +546,49 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8488}
     - Class: 114
-      Script: {instanceID: 8822}
+      Script: {instanceID: 8668}
     - Class: 114
-      Script: {instanceID: 9116}
+      Script: {instanceID: 8824}
     - Class: 114
-      Script: {instanceID: 9182}
+      Script: {instanceID: 9118}
     - Class: 114
-      Script: {instanceID: 9420}
+      Script: {instanceID: 9184}
     - Class: 114
-      Script: {instanceID: 9504}
+      Script: {instanceID: 9422}
     - Class: 114
-      Script: {instanceID: 9530}
+      Script: {instanceID: 9506}
     - Class: 114
-      Script: {instanceID: 9742}
+      Script: {instanceID: 9532}
     - Class: 114
-      Script: {instanceID: 9814}
+      Script: {instanceID: 9744}
     - Class: 114
-      Script: {instanceID: 10426}
+      Script: {instanceID: 9816}
     - Class: 114
-      Script: {instanceID: 10476}
+      Script: {instanceID: 10428}
     - Class: 114
-      Script: {instanceID: 10664}
+      Script: {instanceID: 10478}
     - Class: 114
-      Script: {instanceID: 10906}
+      Script: {instanceID: 10666}
     - Class: 114
-      Script: {instanceID: 11192}
+      Script: {instanceID: 10908}
     - Class: 114
-      Script: {instanceID: 11320}
+      Script: {instanceID: 11194}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 11322}
     - Class: 114
-      Script: {instanceID: 11402}
+      Script: {instanceID: 11394}
     - Class: 114
-      Script: {instanceID: 11484}
+      Script: {instanceID: 11404}
     - Class: 114
-      Script: {instanceID: 11592}
+      Script: {instanceID: 11486}
     - Class: 114
-      Script: {instanceID: 11732}
+      Script: {instanceID: 11594}
     - Class: 114
-      Script: {instanceID: 11986}
+      Script: {instanceID: 11734}
     - Class: 114
-      Script: {instanceID: 12754}
+      Script: {instanceID: 11988}
     - Class: 114
-      Script: {instanceID: 30332}
+      Script: {instanceID: 12756}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -626,13 +635,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8488}
     - Class: 114
-      Script: {instanceID: 8822}
+      Script: {instanceID: 8824}
     - Class: 114
-      Script: {instanceID: 8892}
+      Script: {instanceID: 8894}
     - Class: 114
-      Script: {instanceID: 10476}
+      Script: {instanceID: 10478}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 11394}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -679,11 +688,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8488}
     - Class: 114
-      Script: {instanceID: 10476}
+      Script: {instanceID: 8668}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 10478}
     - Class: 114
-      Script: {instanceID: 30332}
+      Script: {instanceID: 11394}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -730,11 +739,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8488}
     - Class: 114
-      Script: {instanceID: 10476}
+      Script: {instanceID: 8668}
     - Class: 114
-      Script: {instanceID: 11392}
+      Script: {instanceID: 10478}
     - Class: 114
-      Script: {instanceID: 30332}
+      Script: {instanceID: 11394}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1906,6 +1915,12 @@ ScriptsOnlyBuild:
     className: ShadowCaster2D
   - hash:
       serializedVersion: 2
+      Hash: 50e3ab9cab24d50cf2cc87a27aa316d4
+    assemblyName: Game
+    namespaceName: 
+    className: mainmenu
+  - hash:
+      serializedVersion: 2
       Hash: a1ac4c50e55874de16eee3db71aa9784
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -1936,10 +1951,10 @@ ScriptsOnlyBuild:
     className: UnityOnTransformParentChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: ed53f0244b8093cfabf3e62f1a4e1340
+      Hash: 31d0a98c54db603ab8c9943fb58dd12e
     assemblyName: Game
     namespaceName: 
-    className: ShipController
+    className: PauseMenuManager
   - hash:
       serializedVersion: 2
       Hash: c6369b4cc3be620d6c9300e920bc3d52
@@ -2528,12 +2543,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 50e3ab9cab24d50cf2cc87a27aa316d4
-    assemblyName: Game
-    namespaceName: 
-    className: mainmenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
