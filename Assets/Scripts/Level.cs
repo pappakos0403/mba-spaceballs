@@ -12,13 +12,15 @@ public class Level : MonoBehaviour
     bool startNextLevel = false;
     float nextLevelTimer = 3f;
 
-    string[] levels = { "Level1", "Level2", "Level3"};
+    string[] levels = { "Level1", "Level2", "Level3" };
     int currentLevel = 1;
 
     int score = 0;
     Text scoreText;
     int health = 3;
     Text healthText;
+    Text levelText;
+    Text levelDescriptionText;
 
     private void Awake()
     {
@@ -28,6 +30,8 @@ public class Level : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
             healthText = GameObject.Find("HealthText").GetComponent<Text>();
+            levelText = GameObject.Find("LevelText").GetComponent<Text>();
+            levelDescriptionText = GameObject.Find("LevelDescriptionText").GetComponent<Text>();
         }
         else
         {
@@ -35,13 +39,11 @@ public class Level : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(HideLevelTextAfterDelay(3f)); // 3 másodperc után eltűnik a szint szöveg
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (startNextLevel)
@@ -68,9 +70,6 @@ public class Level : MonoBehaviour
         }
     }
 
-    
-
-
     public void AddScore(int amountToAdd)
     {
         score += amountToAdd;
@@ -85,7 +84,7 @@ public class Level : MonoBehaviour
 
     public void IncreaseHealth(int amountToIncrease)
     {
-        if (health < 5) //Maximum 5 élet lehet
+        if (health < 5) // Maximum 5 élet lehet
         {
             health += amountToIncrease;
             healthText.text = health.ToString();
@@ -105,5 +104,12 @@ public class Level : MonoBehaviour
         {
             startNextLevel = true;
         }
+    }
+
+    private IEnumerator HideLevelTextAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        levelText.gameObject.SetActive(false);
+        levelDescriptionText.gameObject.SetActive(false);
     }
 }

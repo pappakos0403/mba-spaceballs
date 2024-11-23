@@ -1971,6 +1971,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 44539404274286742, guid: 5cdfc03c738ee3e49972bb9609a21a48, type: 3}
+      propertyPath: m_Text
+      value: Level 2
+      objectReference: {fileID: 0}
     - target: {fileID: 58460759069903562, guid: 5cdfc03c738ee3e49972bb9609a21a48, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.99
@@ -2030,6 +2034,10 @@ PrefabInstance:
     - target: {fileID: 2319324041646984528, guid: 5cdfc03c738ee3e49972bb9609a21a48, type: 3}
       propertyPath: m_Name
       value: Level
+      objectReference: {fileID: 0}
+    - target: {fileID: 3204194393248049985, guid: 5cdfc03c738ee3e49972bb9609a21a48, type: 3}
+      propertyPath: m_Text
+      value: "Er\u0151sebb Bajaouk \xE9rkeznek"
       objectReference: {fileID: 0}
     - target: {fileID: 3341487876178550641, guid: 5cdfc03c738ee3e49972bb9609a21a48, type: 3}
       propertyPath: m_AnchoredPosition.x
