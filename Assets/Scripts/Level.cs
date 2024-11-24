@@ -34,8 +34,9 @@ public class Level : MonoBehaviour
     int health = 3;
     Text healthText;
 
-    [SerializeField] private Text levelIntroText;  // Inspector-ban húzd rá a Text komponenst
-    [SerializeField] private CanvasGroup levelIntroPanel;  // Inspector-ban húzd rá a Panel-t
+    [SerializeField] private Text levelIntroText;
+    [SerializeField] private Text levelIntroDescription;
+    [SerializeField] private CanvasGroup levelIntroPanel; 
     private float introDisplayTime = 3f;
     private LevelTextData levelTextData;
 
@@ -95,7 +96,7 @@ public class Level : MonoBehaviour
 
     private void ShowLevelIntro()
     {
-        if (levelIntroPanel != null && levelIntroText != null)
+        if (levelIntroPanel != null && levelIntroText != null && levelIntroDescription != null)
         {
             // Aktuális szint adatainak keresése
             LevelData currentLevelData = levelTextData.levels.Find(x => x.levelNumber == currentLevel);
@@ -103,7 +104,8 @@ public class Level : MonoBehaviour
             if (currentLevelData != null)
             {
                 // Szöveg beállítása
-                levelIntroText.text = $"{currentLevelData.title}\n\n{currentLevelData.description}";
+                levelIntroText.text = currentLevelData.title;
+                levelIntroDescription.text = currentLevelData.description;
                 
                 // Panel megjelenítése
                 levelIntroPanel.alpha = 1;
