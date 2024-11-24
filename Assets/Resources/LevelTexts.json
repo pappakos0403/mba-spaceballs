@@ -1,0 +1,19 @@
+{
+    "levels": [
+        {
+            "levelNumber": 1,
+            "title": "Level 1",
+            "description": "Az első Bajaou támadás"
+        },
+        {
+            "levelNumber": 2,
+            "title": "Level 2",
+            "description": "Erősebb Bajaouk érkeznek"
+        },
+        {
+            "levelNumber": 3,
+            "title": "Level 3",
+            "description": "Végső leszámolás"
+        }
+    ]
+}

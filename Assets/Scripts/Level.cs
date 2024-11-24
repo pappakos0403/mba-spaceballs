@@ -4,6 +4,20 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+[System.Serializable]
+public class LevelData
+{
+    public int levelNumber;
+    public string title;
+    public string description;
+}
+
+[System.Serializable]
+public class LevelTextData
+{
+    public List<LevelData> levels;
+}
+
 public class Level : MonoBehaviour
 {
     public static Level instance;
@@ -19,8 +33,11 @@ public class Level : MonoBehaviour
     Text scoreText;
     int health = 3;
     Text healthText;
-    Text levelText;
-    Text levelDescriptionText;
+
+    [SerializeField] private Text levelIntroText;  // Inspector-ban húzd rá a Text komponenst
+    [SerializeField] private CanvasGroup levelIntroPanel;  // Inspector-ban húzd rá a Panel-t
+    private float introDisplayTime = 3f;
+    private LevelTextData levelTextData;
 
     private void Awake()
     {
@@ -28,10 +45,15 @@ public class Level : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+            
             scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
             healthText = GameObject.Find("HealthText").GetComponent<Text>();
-            levelText = GameObject.Find("LevelText").GetComponent<Text>();
-            levelDescriptionText = GameObject.Find("LevelDescriptionText").GetComponent<Text>();
+
+            TextAsset jsonFile = Resources.Load<TextAsset>("LevelTexts");
+            if (jsonFile != null)
+            {
+                levelTextData = JsonUtility.FromJson<LevelTextData>(jsonFile.text);
+            }
         }
         else
         {
@@ -41,7 +63,7 @@ public class Level : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(HideLevelTextAfterDelay(3f)); // 3 másodperc után eltűnik a szint szöveg
+        ShowLevelIntro();
     }
 
     void Update()
@@ -55,6 +77,7 @@ public class Level : MonoBehaviour
                 {
                     string sceneName = levels[currentLevel - 1];
                     SceneManager.LoadSceneAsync(sceneName);
+                    ShowLevelIntro();  // Új szint intro megjelenítése
                 }
                 else
                 {
@@ -68,6 +91,48 @@ public class Level : MonoBehaviour
                 nextLevelTimer -= Time.deltaTime;
             }
         }
+    }
+
+    private void ShowLevelIntro()
+    {
+        if (levelIntroPanel != null && levelIntroText != null)
+        {
+            // Aktuális szint adatainak keresése
+            LevelData currentLevelData = levelTextData.levels.Find(x => x.levelNumber == currentLevel);
+            
+            if (currentLevelData != null)
+            {
+                // Szöveg beállítása
+                levelIntroText.text = $"{currentLevelData.title}\n\n{currentLevelData.description}";
+                
+                // Panel megjelenítése
+                levelIntroPanel.alpha = 1;
+                levelIntroPanel.interactable = true;
+                levelIntroPanel.blocksRaycasts = true;
+
+                // Coroutine indítása a panel elrejtéséhez
+                StartCoroutine(HideLevelIntroAfterDelay());
+            }
+        }
+    }
+
+    private IEnumerator HideLevelIntroAfterDelay()
+    {
+        yield return new WaitForSeconds(introDisplayTime);
+
+        // Fokozatos elhalványítás
+        float elapsedTime = 0;
+        float fadeTime = 1f;
+
+        while (elapsedTime < fadeTime)
+        {
+            elapsedTime += Time.deltaTime;
+            levelIntroPanel.alpha = Mathf.Lerp(1, 0, elapsedTime / fadeTime);
+            yield return null;
+        }
+
+        levelIntroPanel.interactable = false;
+        levelIntroPanel.blocksRaycasts = false;
     }
 
     public void AddScore(int amountToAdd)
@@ -104,12 +169,5 @@ public class Level : MonoBehaviour
         {
             startNextLevel = true;
         }
-    }
-
-    private IEnumerator HideLevelTextAfterDelay(float delay)
-    {
-        yield return new WaitForSeconds(delay);
-        levelText.gameObject.SetActive(false);
-        levelDescriptionText.gameObject.SetActive(false);
     }
 }
