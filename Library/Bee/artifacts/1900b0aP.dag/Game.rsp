@@ -315,6 +315,7 @@
 "Assets/Scripts/MoveSin.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PowerUp.cs"
+"Assets/Scripts/ScrollingBackground.cs"
 "Assets/Scripts/Shield.cs"
 "Assets/Scripts/Ship.cs"
 -langversion:9.0

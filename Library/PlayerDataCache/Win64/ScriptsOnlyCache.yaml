@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - MoveSin
     - PauseMenuManager
     - PowerUp
+    - ScrollingBackground
     - Shield
     - Ship
     - mainmenu
@@ -248,7 +249,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -294,6 +301,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11860}
     - Class: 114
       Script: {instanceID: 12122}
+    - Class: 114
+      Script: {instanceID: 30302}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -323,7 +332,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -369,6 +384,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11860}
     - Class: 114
       Script: {instanceID: 12122}
+    - Class: 114
+      Script: {instanceID: 30302}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -398,7 +415,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -450,6 +473,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11394}
     - Class: 114
       Script: {instanceID: 11860}
+    - Class: 114
+      Script: {instanceID: 30302}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2555,6 +2580,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a1acf03d245e55716ae07c991d10a2fd
+    assemblyName: Game
+    namespaceName: 
+    className: ScrollingBackground
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
@@ -2564,4 +2595,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/SceneHighscore.unity
   - Assets/Scenes/SceneSettings.unity
   - Assets/Scenes/PauseMenu.unity
-  playerPath: "C:/Users/\xC1kos/Desktop/demo/MBA Spaceballs.exe"
+  playerPath: "C:/Users/\xC1kos/Desktop/demo/MonoBleedingEdge/MBA Spaceballs.exe"
