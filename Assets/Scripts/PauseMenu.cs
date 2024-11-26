@@ -5,14 +5,13 @@ public class PauseMenuManager : MonoBehaviour
 {
     public void ResumeGame()
     {
-        SceneManager.UnloadSceneAsync("PauseMenu"); // Eltávolítja a PauseMenu jelenetet
-        Time.timeScale = 1f; // Idõ újraindítása
+        SceneManager.UnloadSceneAsync("PauseMenu"); // Eltï¿½volï¿½tja a PauseMenu jelenetet
+        Time.timeScale = 1f; // Idï¿½ ï¿½jraindï¿½tï¿½sa
     }
 
-    public void QuitToMainMenu()
+    public void ExitGame()
     {
-        Time.timeScale = 1f; // Idõ visszaállítása
-        SceneManager.LoadScene("MainMenu"); // Visszatérés a fõmenübe
+        Application.Quit(); // KilÃ©pÃ©s
     }
     public void GoToSettingsMenu()
     {
