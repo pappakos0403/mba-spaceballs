@@ -26,15 +26,12 @@ public class Ship : MonoBehaviour
 
     bool shoot; // Lövés jelzése
 
-    private bool isPauseMenuActive = false;
-
-
     SpriteRenderer spriteRenderer; // Az űrhajó sprite renderelője
 
     GameObject shield; // Pajzs objektum
     int powerUpGunLevel = 0; // Power-up szintje a fegyverekhez
 
-    private void Awake()
+    public void Awake()
     {
         initialPosition = transform.position; // Kezdő pozíció mentése
         spriteRenderer = transform.Find("Sprite").GetComponent<SpriteRenderer>(); // Sprite renderelő beállítása
@@ -178,7 +175,7 @@ public class Ship : MonoBehaviour
         speedMultiplier = mult;
     }
 
-    void ResetShip() // Hajó újraindítása
+    public void ResetShip() // Hajó újraindítása
     {
         transform.position = initialPosition; // Kezdőpozíció visszaállítása
         DeactivateShield(); // Pajzs kikapcsolása
@@ -251,4 +248,6 @@ public class Ship : MonoBehaviour
             Destroy(powerUp.gameObject); // Power-up elpusztítása
         }
     }
+
+    
 }

@@ -57,8 +57,11 @@ public class Gun : MonoBehaviour
 
     public void Shoot() //Lövés a fegyverrel
     {
+        if (!isActive) return;
+        
         GameObject go = Instantiate(bullet.gameObject, transform.position, Quaternion.identity); // Új Bullet példány a fegyver aktuális pozíciójából
         Bullet goBullet = go.GetComponent<Bullet>(); // A Bullet komponens lekérése az újonnan létrehozott objektumból
+        go.tag = "Bullet"; // Címke beállítása
         goBullet.direction = direction; // Beállítja a Bullet irányát a fegyver irányának megfelelően
     }
 }
