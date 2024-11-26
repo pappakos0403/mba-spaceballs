@@ -357,6 +357,7 @@
 "Assets/Scripts/SettingsMenu.cs"
 "Assets/Scripts/Shield.cs"
 "Assets/Scripts/Ship.cs"
+"Assets/Scripts/StoryManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
