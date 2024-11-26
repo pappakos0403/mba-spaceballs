@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,11 +15,22 @@ public class Gun : MonoBehaviour
     public float shootDelaySeconds = 0.0f;
     float shootTimer = 0f;
     float delayTimer = 0f;
-
+    AudioSource _audio;
     public bool isActive = false;
 
-    void Start() // Egyszer hívódik meg az indításkor
+    private void Awake()
     {
+        if (autoShoot)
+        {
+            if (GetComponentInParent<AudioSource>() == null)
+            {
+                transform.parent.gameObject.AddComponent<AudioSource>();
+            }
+            _audio = GetComponentInParent<AudioSource>();
+            _audio.clip = (AudioClip)Resources.Load("EnemyShoot");
+            _audio.volume = PlayerPrefs.GetInt("volume", 100) / 100f;
+            _audio.playOnAwake = false;
+        }
         
     }
 
@@ -39,6 +51,7 @@ public class Gun : MonoBehaviour
             {
                 if (shootTimer >= shootIntervalSeconds)
                 {
+                    _audio.Play();
                     Shoot();
                     shootTimer = 0;
                 }

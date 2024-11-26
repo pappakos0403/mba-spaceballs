@@ -33,11 +33,21 @@ public class Ship : MonoBehaviour
 
     GameObject shield; // Pajzs objektum
     int powerUpGunLevel = 0; // Power-up szintje a fegyverekhez
+    
+    AudioSource audioSource;
 
     private void Awake()
     {
         initialPosition = transform.position; // Kezdő pozíció mentése
         spriteRenderer = transform.Find("Sprite").GetComponent<SpriteRenderer>(); // Sprite renderelő beállítása
+        if (GetComponent<AudioSource>() == null)
+        {
+            gameObject.AddComponent<AudioSource>();
+        }
+        audioSource = GetComponentInParent<AudioSource>();
+        audioSource.clip = (AudioClip)Resources.Load("SpaceShoot");
+        audioSource.playOnAwake = false;
+        audioSource.volume = PlayerPrefs.GetInt("volume", 100) / 100f;
     }
 
     void Start() // Egyszer fut le a játék indulásakor
@@ -71,6 +81,7 @@ public class Ship : MonoBehaviour
         shoot = Input.GetKeyDown(KeyCode.Space); // Lövés jelzése
         if (shoot)
         {
+            audioSource.Play();
             shoot = false;
             foreach (Gun gun in guns)
             {
