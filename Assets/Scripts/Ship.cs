@@ -13,8 +13,8 @@ public class Ship : MonoBehaviour
     float moveSpeed = 3; // Alap mozgási sebesség
     float speedMultiplier = 1; // Sebesség szorzó (power-up-hoz)
 
-    int hits = 3; // Találatok száma (életek száma)
-    bool invincible = false; // Sérthetetlenségi állapot
+    public int hits = 3; // Találatok száma (életek száma)
+    public bool invincible = false; // Sérthetetlenségi állapot
     float invincibleTimer = 0; // Sérthetetlenségi időzítő
     float invincibleTime = 2; // Sérthetetlenség időtartama másodpercben
 
@@ -37,7 +37,7 @@ public class Ship : MonoBehaviour
         spriteRenderer = transform.Find("Sprite").GetComponent<SpriteRenderer>(); // Sprite renderelő beállítása
     }
 
-    void Start() // Egyszer fut le a játék indulásakor
+    public void Start() // Egyszer fut le a játék indulásakor
     {
         shield = transform.Find("Shield").gameObject; // Pajzs objektum lekérése
         DeactivateShield(); // Pajzs kikapcsolása
@@ -139,12 +139,12 @@ public class Ship : MonoBehaviour
         transform.position = pos; // Végleges pozíció beállítása
     }
 
-    void ActivateShield() // Pajzs aktiválása
+    public void ActivateShield() // Pajzs aktiválása
     {
         shield.SetActive(true);
     }
 
-    void DeactivateShield() // Pajzs deaktiválása
+    public void DeactivateShield() // Pajzs deaktiválása
     {
         shield.SetActive(false);
     }
@@ -184,7 +184,7 @@ public class Ship : MonoBehaviour
         SetSpeedMultiplier(1); // Sebesség visszaállítása
     }
 
-    void Hit(GameObject gameObjectHit) // Ha találat éri a hajót
+    public void Hit(GameObject gameObjectHit) // Ha találat éri a hajót
     {
         if (HasShield())
         {
