@@ -13,8 +13,8 @@ public class Ship : MonoBehaviour
     float moveSpeed = 3; // Alap mozgási sebesség
     float speedMultiplier = 1; // Sebesség szorzó (power-up-hoz)
 
-    int hits = 3; // Találatok száma (életek száma)
-    bool invincible = false; // Sérthetetlenségi állapot
+    public int hits = 3; // Találatok száma (életek száma)
+    public bool invincible = false; // Sérthetetlenségi állapot
     float invincibleTimer = 0; // Sérthetetlenségi időzítő
     float invincibleTime = 2; // Sérthetetlenség időtartama másodpercben
 
@@ -26,9 +26,6 @@ public class Ship : MonoBehaviour
 
     bool shoot; // Lövés jelzése
 
-    private bool isPauseMenuActive = false;
-
-
     SpriteRenderer spriteRenderer; // Az űrhajó sprite renderelője
 
     GameObject shield; // Pajzs objektum
@@ -36,7 +33,7 @@ public class Ship : MonoBehaviour
     
     AudioSource audioSource;
 
-    private void Awake()
+    public void Awake()
     {
         initialPosition = transform.position; // Kezdő pozíció mentése
         spriteRenderer = transform.Find("Sprite").GetComponent<SpriteRenderer>(); // Sprite renderelő beállítása
@@ -50,7 +47,7 @@ public class Ship : MonoBehaviour
         audioSource.volume = PlayerPrefs.GetInt("volume", 100) / 100f;
     }
 
-    void Start() // Egyszer fut le a játék indulásakor
+    public void Start() // Egyszer fut le a játék indulásakor
     {
         shield = transform.Find("Shield").gameObject; // Pajzs objektum lekérése
         DeactivateShield(); // Pajzs kikapcsolása
@@ -153,12 +150,12 @@ public class Ship : MonoBehaviour
         transform.position = pos; // Végleges pozíció beállítása
     }
 
-    void ActivateShield() // Pajzs aktiválása
+    public void ActivateShield() // Pajzs aktiválása
     {
         shield.SetActive(true);
     }
 
-    void DeactivateShield() // Pajzs deaktiválása
+    public void DeactivateShield() // Pajzs deaktiválása
     {
         shield.SetActive(false);
     }
@@ -189,7 +186,7 @@ public class Ship : MonoBehaviour
         speedMultiplier = mult;
     }
 
-    void ResetShip() // Hajó újraindítása
+    public void ResetShip() // Hajó újraindítása
     {
         transform.position = initialPosition; // Kezdőpozíció visszaállítása
         DeactivateShield(); // Pajzs kikapcsolása
@@ -198,7 +195,7 @@ public class Ship : MonoBehaviour
         SetSpeedMultiplier(1); // Sebesség visszaállítása
     }
 
-    void Hit(GameObject gameObjectHit) // Ha találat éri a hajót
+    public void Hit(GameObject gameObjectHit) // Ha találat éri a hajót
     {
         if (HasShield())
         {
@@ -262,4 +259,6 @@ public class Ship : MonoBehaviour
             Destroy(powerUp.gameObject); // Power-up elpusztítása
         }
     }
+
+    
 }
