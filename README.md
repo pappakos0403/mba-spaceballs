@@ -14,9 +14,9 @@ Ez a projekt egy 2D űrhajós lövöldözős játék, amit Unity-ben fejlesztett
 ## Telepítés
 
 1. Töltsd le a projektet a GitHub repóból.
-2. Nyisd meg a projektet Unity-ben.
-3. Ellenőrizd, hogy a szükséges JSON fájlok elérhetők-e a projekt mappájában (a történet betöltéséhez).
-4. Indítsd el a játékot Unity-ből.
+2. Ellenőrizd, hogy a szükséges JSON fájlok elérhetők-e a projekt mappájában (a történet betöltéséhez).
+3. Indítsd el a játékot az MBA Spaceballs.exe-vel.
+   `mba-spaceballs\Demo\MBA Spaceballs.exe`
 
 ## Használat
 
