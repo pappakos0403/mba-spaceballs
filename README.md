@@ -28,4 +28,5 @@ A játék célja, hogy legyőzd az ellenségeket, miközben elkerülöd az akad�
 ## Assetek
 
 A történet JSON fájlban kerül tárolásra és betöltésre. A fájl a következő elérési útvonalon található:  
-`Assets/Resources/Story/levelData.json`
+`Assets/Resources/levelTexts.json`
+'Assets/Resources/Story.json'
