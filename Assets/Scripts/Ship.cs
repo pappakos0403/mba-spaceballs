@@ -211,6 +211,9 @@ public class Ship : MonoBehaviour
                 if (hits <= 0)
                 {
                     Destroy(gameObject); // Hajó elpusztítása, ha nincs több élet
+                    Level.instance.isAlive = false;
+                    PlayerPrefs.SetInt("PlayerScore", Level.instance.score);
+                    SceneManager.LoadSceneAsync("GameOver");
                 }
                 else
                 {

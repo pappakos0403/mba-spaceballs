@@ -307,6 +307,7 @@
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/Destructable.cs"
 "Assets/Scripts/FinalBoss.cs"
+"Assets/Scripts/GameOver.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/Level.cs"
 "Assets/Scripts/mainmenu.cs"

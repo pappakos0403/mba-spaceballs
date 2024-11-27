@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Bullet
     - Destructable
     - FinalBoss
+    - GameOver
     - Gun
     - Level
     - MoveRightLeft
@@ -122,6 +123,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
     - UnityEngine.UI.Toggle
@@ -167,6 +169,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Button/ButtonClickedEvent
     - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
     - UnityEngine.UI.ScrollRect/ScrollRectEvent
@@ -247,7 +252,61 @@ ScriptsOnlyBuild:
   - assembly: Game
     fullTypeName: PauseMenuManager
     methodName: ExitGame
+  - assembly: Game
+    fullTypeName: GameOver
+    methodName: GoToHighscore
   sceneClasses:
+    Assets/Scenes/GameOver.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1772}
+    - Class: 114
+      Script: {instanceID: 1776}
+    - Class: 114
+      Script: {instanceID: 1778}
+    - Class: 114
+      Script: {instanceID: 1818}
+    - Class: 114
+      Script: {instanceID: 2970}
+    - Class: 114
+      Script: {instanceID: 8320}
+    - Class: 114
+      Script: {instanceID: 8502}
+    - Class: 114
+      Script: {instanceID: 11412}
+    - Class: 114
+      Script: {instanceID: 29442}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Level1.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -1391,7 +1450,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerObject
   - hash:
       serializedVersion: 2
-      Hash: 033408da861265ab083281b21201ac7e
+      Hash: 0fee4ed1303aae26a3957456fd0f14a3
     assemblyName: Game
     namespaceName: 
     className: Level
@@ -2667,6 +2726,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a967564c76b1ae3e063a04ddf3a80109
+    assemblyName: Game
+    namespaceName: 
+    className: GameOver
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
@@ -2677,5 +2742,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/SceneHighscore.unity
   - Assets/Scenes/SceneSettings.unity
   - Assets/Scenes/PauseMenu.unity
-  playerPath: "C:/Users/\xC1kos/Desktop/gitMBA Spaceballs/mba-spaceballs/Skeleton/MBA
-    Spaceballs.exe"
+  - Assets/Scenes/GameOver.unity
+  playerPath: "C:/Users/\xC1kos/Desktop/demo/MBA Spaceballs.exe"

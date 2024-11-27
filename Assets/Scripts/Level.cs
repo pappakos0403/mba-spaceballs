@@ -29,10 +29,12 @@ public class Level : MonoBehaviour
     string[] levels = { "Level1", "Level2", "Level3" };
     int currentLevel = 1;
 
-    int score = 0;
+    public int score = 0;
     Text scoreText;
     int health = 3;
     Text healthText;
+
+    public bool isAlive = true;
 
     [SerializeField] private Text levelIntroText;
     [SerializeField] private Text levelIntroDescription;
@@ -69,7 +71,7 @@ public class Level : MonoBehaviour
 
     void Update()
     {
-        if (startNextLevel)
+        if (startNextLevel && isAlive)
         {
             if (nextLevelTimer <= 0)
             {
@@ -82,7 +84,10 @@ public class Level : MonoBehaviour
                 }
                 else
                 {
+                    isAlive = false;
                     Debug.Log("GAME OVER!");
+                    PlayerPrefs.SetInt("PlayerScore", Level.instance.score);
+                    SceneManager.LoadSceneAsync("GameOver");
                 }
                 nextLevelTimer = 3;
                 startNextLevel = false;
