@@ -1,0 +1,1463 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.47f1 (88c277b85d21) revision 8962679'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'hu' Physical Memory: 7971 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.47f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Kallo/mba-spaceballs
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54989
+Successfully changed project path to: C:/Users/Kallo/mba-spaceballs
+C:/Users/Kallo/mba-spaceballs
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8968]  Target information:
+
+Player connection [8968]  * "[IP] 192.168.0.23 [Port] 0 [Flags] 2 [Guid] 2672218179 [EditorId] 2672218179 [Version] 1048832 [Id] WindowsEditor(7,KalloAcer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8968] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8968] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 16.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.47f1 (88c277b85d21)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kallo/mba-spaceballs/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.15.6603
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010481 seconds.
+- Loaded All Assemblies, in  0.661 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.517 seconds
+Domain Reload Profiling: 1177ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (264ms)
+				TypeCache.ScanAssembly (238ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (518ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (433ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (16ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.404 seconds
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.648 seconds
+Domain Reload Profiling: 3048ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (987ms)
+		LoadAssemblies (708ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (438ms)
+			TypeCache.Refresh (365ms)
+				TypeCache.ScanAssembly (334ms)
+			ScanForSourceGeneratedMonoScriptInfo (54ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1649ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1253ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (889ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 9.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5740 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (0.5 MB). Loaded Objects now: 6209.
+Memory consumption went from 221.0 MB to 220.4 MB.
+Total: 9.995100 ms (FindLiveObjects: 0.821500 ms CreateObjectMapping: 0.646500 ms MarkObjects: 7.923500 ms  DeleteObjects: 0.601500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 548606.940621 seconds.
+  path: Assets/Scripts/GameOver.cs
+  artifactKey: Guid(c95f30bd58acbc744847ee8c8a82807d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameOver.cs using Guid(c95f30bd58acbc744847ee8c8a82807d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a33b85d4c321f9acdeed26cec85b4fd') in 0.004937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 395.964747 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(d727c0208bc2e6b4b936962643e44998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(d727c0208bc2e6b4b936962643e44998) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '73db325e236225061cba9c4e90bd4003') in 0.018595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 27.213347 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9b9275486527e5e9d727a32c8406e2a') in 0.006539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.735 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.604 seconds
+Domain Reload Profiling: 14344ms
+	BeginReloadAssembly (7443ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5935ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (747ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (5093ms)
+		LoadAssemblies (5467ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (177ms)
+			TypeCache.Refresh (62ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (80ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (1606ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1096ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (722ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 16.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (0.5 MB). Loaded Objects now: 6216.
+Memory consumption went from 192.5 MB to 192.0 MB.
+Total: 14.242400 ms (FindLiveObjects: 1.015200 ms CreateObjectMapping: 0.585900 ms MarkObjects: 12.246000 ms  DeleteObjects: 0.393800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Game: 5622f2ac0da17fcb72d889f42960a63e -> 5173e22eefaea2e8ec9656d9b579fdf0
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HighscoreDisplay.cs: 0ebaa1b0ff7602277be99ef1f74f4b85 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 41.318950 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.026938 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001427 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.020965 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000819 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026797 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001509 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011101 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001367 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052639 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001164 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.019838 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001014 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011928 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001659 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006014 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001240 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010039 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001317 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009344 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000725 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010798 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001124 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006993 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000734 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008342 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000684 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007758 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001129 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006903 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001194 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004229 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000800 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006920 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000958 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006473 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000897 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004144 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000959 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005590 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000596 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008700 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000826 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004854 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001045 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007880 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000910 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006101 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001092 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002399 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001034 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004559 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001092 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007123 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000829 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005423 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000753 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006131 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001135 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005825 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001029 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006293 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001578 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005752 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000821 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006472 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000972 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008584 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001062 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008701 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001019 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005894 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001062 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006925 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000648 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007149 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000740 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007081 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000734 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005568 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001484 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005075 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001242 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006517 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001384 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006764 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001243 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007180 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000960 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003024 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000821 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007445 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000801 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.002595 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000913 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006669 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001108 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007236 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000802 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006953 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001832 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014443 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001199 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011458 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.000932 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008172 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001012 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006992 seconds.
+  path: Assets/Scripts/HighscoreDisplay.cs
+  artifactKey: Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HighscoreDisplay.cs using Guid(d8e7d046b91069e45ac378ab8f686a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '00000000000000000000000000000000') in 0.001099 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+  ERROR: Build asset version error: assets/scripts/highscoredisplay.cs in SourceAssetDB has modification time of '2024-11-27T17:54:43.6058966Z' while content on disk has modification time of '2024-11-27T17:55:23.9368059Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.873 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.384 seconds
+Domain Reload Profiling: 4253ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (469ms)
+		LoadAssemblies (527ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (3385ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1021ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (692ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 5.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (0.5 MB). Loaded Objects now: 6221.
+Memory consumption went from 192.5 MB to 192.0 MB.
+Total: 10.652200 ms (FindLiveObjects: 0.881600 ms CreateObjectMapping: 0.370600 ms MarkObjects: 8.994900 ms  DeleteObjects: 0.402900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Game: 2ee533fa392d14261a3e429e17292ae8 -> 5173e22eefaea2e8ec9656d9b579fdf0
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HighscoreDisplay.cs: 0ebaa1b0ff7602277be99ef1f74f4b85 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.852 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.188 seconds
+Domain Reload Profiling: 4037ms
+	BeginReloadAssembly (288ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (547ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (32ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (3190ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (989ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (634ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 14.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (0.5 MB). Loaded Objects now: 6226.
+Memory consumption went from 192.5 MB to 192.0 MB.
+Total: 10.890300 ms (FindLiveObjects: 2.816800 ms CreateObjectMapping: 0.897800 ms MarkObjects: 6.459300 ms  DeleteObjects: 0.711700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Game: 2ee533fa392d14261a3e429e17292ae8 -> 5173e22eefaea2e8ec9656d9b579fdf0
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HighscoreDisplay.cs: 0ebaa1b0ff7602277be99ef1f74f4b85 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67.381785 seconds.
+  path: Assets/Scenes/SceneHighscore.unity
+  artifactKey: Guid(c600043521675764490f79a9ae2e98b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SceneHighscore.unity using Guid(c600043521675764490f79a9ae2e98b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '069221cd76319a915a898bf9e0b6fe4b') in 0.006717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 253.193662 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ac24896a089ddf2538ba12141611fb4') in 0.691541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7843983add6b301a49c6989d2e009c8a') in 0.027878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.860 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.421 seconds
+Domain Reload Profiling: 4279ms
+	BeginReloadAssembly (301ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (431ms)
+		LoadAssemblies (555ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (3422ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1116ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (789ms)
+			ProcessInitializeOnLoadMethodAttributes (148ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 9.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (0.5 MB). Loaded Objects now: 6315.
+Memory consumption went from 197.6 MB to 197.1 MB.
+Total: 10.450900 ms (FindLiveObjects: 1.241100 ms CreateObjectMapping: 1.874400 ms MarkObjects: 6.933000 ms  DeleteObjects: 0.399100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Game: 2ee533fa392d14261a3e429e17292ae8 -> 5173e22eefaea2e8ec9656d9b579fdf0
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HighscoreDisplay.cs: 0ebaa1b0ff7602277be99ef1f74f4b85 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 298.318598 seconds.
+  path: Assets/Scenes/SceneHighscore.unity
+  artifactKey: Guid(c600043521675764490f79a9ae2e98b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SceneHighscore.unity using Guid(c600043521675764490f79a9ae2e98b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '816c98487f09a6e615b0f19cd8c03ea6') in 0.008327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.667 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.696 seconds
+Domain Reload Profiling: 6354ms
+	BeginReloadAssembly (1063ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (125ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (544ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (1433ms)
+		LoadAssemblies (1500ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (39ms)
+				TypeCache.ScanAssembly (3ms)
+			ScanForSourceGeneratedMonoScriptInfo (84ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (3698ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (909ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (629ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 15.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (0.5 MB). Loaded Objects now: 6320.
+Memory consumption went from 197.4 MB to 196.9 MB.
+Total: 14.007500 ms (FindLiveObjects: 0.711300 ms CreateObjectMapping: 0.447000 ms MarkObjects: 12.229800 ms  DeleteObjects: 0.617000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Game: 2ee533fa392d14261a3e429e17292ae8 -> 5173e22eefaea2e8ec9656d9b579fdf0
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HighscoreDisplay.cs: 0ebaa1b0ff7602277be99ef1f74f4b85 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.849 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.996 seconds
+Domain Reload Profiling: 4843ms
+	BeginReloadAssembly (258ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (552ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (3998ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1319ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (893ms)
+			ProcessInitializeOnLoadMethodAttributes (189ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 6.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (0.5 MB). Loaded Objects now: 6325.
+Memory consumption went from 197.5 MB to 197.0 MB.
+Total: 5.453900 ms (FindLiveObjects: 0.604000 ms CreateObjectMapping: 0.422800 ms MarkObjects: 4.107900 ms  DeleteObjects: 0.316300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Game: 2ee533fa392d14261a3e429e17292ae8 -> 5173e22eefaea2e8ec9656d9b579fdf0
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HighscoreDisplay.cs: 0ebaa1b0ff7602277be99ef1f74f4b85 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 449.522993 seconds.
+  path: Assets/Scenes/SceneHighscore.unity
+  artifactKey: Guid(c600043521675764490f79a9ae2e98b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SceneHighscore.unity using Guid(c600043521675764490f79a9ae2e98b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e861fa75dd4e17e852243f366d65b91') in 0.019637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.782 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.702 seconds
+Domain Reload Profiling: 4482ms
+	BeginReloadAssembly (284ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (370ms)
+		LoadAssemblies (491ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (3703ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1270ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (869ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 10.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (0.5 MB). Loaded Objects now: 6330.
+Memory consumption went from 197.5 MB to 197.0 MB.
+Total: 7.834000 ms (FindLiveObjects: 0.667000 ms CreateObjectMapping: 0.526600 ms MarkObjects: 6.095400 ms  DeleteObjects: 0.542800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Game: 2ee533fa392d14261a3e429e17292ae8 -> 5173e22eefaea2e8ec9656d9b579fdf0
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HighscoreDisplay.cs: 0ebaa1b0ff7602277be99ef1f74f4b85 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 92.565703 seconds.
+  path: Assets/Scenes/SceneHighscore.unity
+  artifactKey: Guid(c600043521675764490f79a9ae2e98b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SceneHighscore.unity using Guid(c600043521675764490f79a9ae2e98b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '899d0600cbe7a8e39597978e42981ec4') in 0.004250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.824 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.320 seconds
+Domain Reload Profiling: 4141ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (535ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3321ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1174ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (793ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+Refreshing native plugins compatible for Editor in 9.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5576 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (0.5 MB). Loaded Objects now: 6335.
+Memory consumption went from 197.5 MB to 197.0 MB.
+Total: 10.837400 ms (FindLiveObjects: 0.702000 ms CreateObjectMapping: 0.425000 ms MarkObjects: 8.906400 ms  DeleteObjects: 0.800500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/precompiled-assembly-types:Game: 2ee533fa392d14261a3e429e17292ae8 -> 5173e22eefaea2e8ec9656d9b579fdf0
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/HighscoreDisplay.cs: 0ebaa1b0ff7602277be99ef1f74f4b85 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
