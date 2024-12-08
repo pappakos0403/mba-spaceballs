@@ -1,4 +1,4 @@
-# 2D Spaceship Shooter Game
+# MBA Spaceballs - Omega4 The Bajaou Conflict
 
 Ez a projekt egy 2D űrhajós lövöldözős játék, amit Unity-ben fejlesztettünk. A játék célja, hogy a játékos irányítja az űrhajót, miközben ellenségekkel küzd és túléli az akadályokat, majd legyőzze a végső ellenséget.
 
@@ -11,12 +11,11 @@ Ez a projekt egy 2D űrhajós lövöldözős játék, amit Unity-ben fejlesztett
 - **Final Boss**: Egy erősebb végső főellenség a játék végén.
 - **Történet**: A játék története JSON fájlból kerül betöltésre, amely a játékmenetet irányítja és befolyásolja.
 
-## Telepítés
+## Játék futtatása
 
-1. Töltsd le a projektet a GitHub repóból.
-2. Ellenőrizd, hogy a szükséges JSON fájlok elérhetők-e a projekt mappájában (a történet betöltéséhez).
+1. Töltsd le a projektet a GitHub Release-ből.
+2. Csomagold ki a letöltött .zip kiterjesztésű fájlt.
 3. Indítsd el a játékot az MBA Spaceballs.exe-vel.
-   `mba-spaceballs\Demo\MBA Spaceballs.exe`
 
 ## Használat
 
@@ -30,3 +29,7 @@ A játék célja, hogy legyőzd az ellenségeket, miközben elkerülöd az akad�
 A történet JSON fájlban kerül tárolásra és betöltésre. A fájl a következő elérési útvonalon található:  
 `Assets/Resources/levelTexts.json`
 `Assets/Resources/Story.json`
+
+A játék során vannak beépített hangelemek. A fájlok a követkző elérési útvonalon találhatóak:
+`Assets/Resources/EnemyShoot.wav`
+`Assets/Resources/SpaceShoot.wav`
