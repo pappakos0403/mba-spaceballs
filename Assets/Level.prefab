@@ -124,7 +124,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: 
 --- !u!1 &537264382993218453
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,7 +332,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3
+  m_Text: 
 --- !u!1 &2319324041646984528
 GameObject:
   m_ObjectHideFlags: 0
@@ -381,6 +381,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 712c1f3fd43297c42b7b15740f8136a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
+  isAlive: 1
   levelIntroText: {fileID: 6323006128606603569}
   levelIntroDescription: {fileID: 2214845471547096979}
   levelIntroPanel: {fileID: 88328882815491617}
@@ -1064,6 +1066,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0db62f0d2649b3c428795ee392287f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialPosition: {x: 0, y: 0}
+  hits: 3
+  invincible: 0
 --- !u!50 &3120421054974946458
 Rigidbody2D:
   serializedVersion: 4

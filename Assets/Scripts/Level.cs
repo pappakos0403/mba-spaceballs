@@ -52,6 +52,9 @@ public class Level : MonoBehaviour
             scoreText = GameObject.Find("ScoreText").GetComponent<Text>();
             healthText = GameObject.Find("HealthText").GetComponent<Text>();
 
+            scoreText.text = score.ToString();
+            healthText.text = health.ToString();
+
             TextAsset jsonFile = Resources.Load<TextAsset>("LevelTexts");
             if (jsonFile != null)
             {
@@ -175,6 +178,30 @@ public class Level : MonoBehaviour
         if (numDestructables == 0)
         {
             startNextLevel = true;
+        }
+    }
+
+    public void ResetGame()
+    {
+        score = 0;
+        scoreText.text = score.ToString();
+        health = 3;
+        healthText.text = health.ToString();
+        currentLevel = 1;
+        isAlive = true;
+
+        Ship ship = FindObjectOfType<Ship>();
+        
+        instance = null;
+        nextLevelTimer = 3f;
+        startNextLevel = false;
+        
+        if (ship != null)
+        {
+            ship.gameObject.SetActive(true);
+            ship.transform.position = ship.initialPosition;
+            ship.hits = 3;
+            ship.ResetShip();
         }
     }
 }

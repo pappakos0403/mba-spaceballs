@@ -8,7 +8,7 @@ public class Destructable : MonoBehaviour
 
     public bool canBeDestroyed = false; // Objektum megsemmisíthető állapota
     public bool isFinalBoss = false; // Final Boss ellenőrző
-    private int finalBossHealth = 1000; // Final Boss élete
+    private int finalBossHealth = 100; // Final Boss élete
     public int scoreValue = 100; // Megsemmisítésért járó pontszám
 
     void Start()

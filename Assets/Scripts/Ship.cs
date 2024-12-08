@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class Ship : MonoBehaviour
 {
-    Vector2 initialPosition; // Az űrhajó kezdőpozíciója
+    public Vector2 initialPosition; // Az űrhajó kezdőpozíciója
     Gun[] guns; // Az űrhajóhoz tartozó fegyverek tömbje
 
     float moveSpeed = 3; // Alap mozgási sebesség
@@ -210,7 +210,8 @@ public class Ship : MonoBehaviour
 
                 if (hits <= 0)
                 {
-                    Destroy(gameObject); // Hajó elpusztítása, ha nincs több élet
+                    //Destroy(gameObject); // Hajó elpusztítása, ha nincs több élet
+                    gameObject.SetActive(false);
                     Level.instance.isAlive = false;
                     PlayerPrefs.SetInt("PlayerScore", Level.instance.score);
                     SceneManager.LoadSceneAsync("GameOver");

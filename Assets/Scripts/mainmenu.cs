@@ -7,6 +7,11 @@ public class mainmenu : MonoBehaviour
 {
    public void NewGame()
     {
+        if (Level.instance != null)
+        {
+            Level.instance.ResetGame();
+        }
+
         SceneManager.LoadScene("Story");
     }
     
