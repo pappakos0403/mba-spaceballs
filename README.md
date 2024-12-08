@@ -30,6 +30,6 @@ A történet JSON fájlban kerül tárolásra és betöltésre. A fájl a követ
 `Assets/Resources/levelTexts.json`
 `Assets/Resources/Story.json`
 
-A játék során vannak beépített hangelemek. A fájlok a követkző elérési útvonalon találhatóak:
+A játék során vannak beépített hangelemek. A fájlok a követkző elérési útvonalon találhatóak:<br>
 `Assets/Resources/EnemyShoot.wav`
 `Assets/Resources/SpaceShoot.wav`
