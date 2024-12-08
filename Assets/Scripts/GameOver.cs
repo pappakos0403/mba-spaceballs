@@ -33,7 +33,7 @@ public class GameOver : MonoBehaviour
         SaveHighscore(playerName, playerScore);
 
         // Highscore scene betöltése
-        SceneManager.LoadScene("SceneHighscore");
+        SceneManager.LoadSceneAsync("SceneHighscore");
     }
 
     private void SaveHighscore(string playerName, int score)

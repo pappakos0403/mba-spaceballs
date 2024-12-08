@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using System;
 using System.IO;
-using log4net.Core;
 
 [Serializable]
 public class StoryElement

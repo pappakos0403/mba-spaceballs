@@ -309,6 +309,7 @@
 "Assets/Scripts/FinalBoss.cs"
 "Assets/Scripts/GameOver.cs"
 "Assets/Scripts/Gun.cs"
+"Assets/Scripts/HighscoreDisplay.cs"
 "Assets/Scripts/Level.cs"
 "Assets/Scripts/mainmenu.cs"
 "Assets/Scripts/MoveRightLeft.cs"

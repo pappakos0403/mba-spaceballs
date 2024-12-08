@@ -13,7 +13,22 @@
         {
             "levelNumber": 3,
             "title": "Level 3",
-            "description": "Végső leszámolás"
+            "description": "Újabb ellenségek is a láthatáron!"
+        },
+        {
+            "levelNumber": 4,
+            "title": "Level 4",
+            "description": "Aszteroida mezőbe érkeztél..."
+        },
+        {
+            "levelNumber": 5,
+            "title": "Level 5",
+            "description": "Nagyobb hullám érkezik..."
+        },
+        {
+            "levelNumber": 6,
+            "title": "Level 6",
+            "description": "Végső leszámolás!"
         }
     ]
 }
